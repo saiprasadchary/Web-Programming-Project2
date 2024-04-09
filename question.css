@@ -1,0 +1,169 @@
+h1 {
+    font-family: "Monospace";
+    text-align: center;
+    font-size: 32pt;
+}
+
+#wbmlogo{
+    width: 100px;
+    height: 100px;
+}
+
+h2 {
+    font-family: "Monospace";
+    text-align: center;
+    font-size: 32pt;
+    color: gold;
+}
+
+html,
+body {
+    background-image: url("million\ game.jpg");
+    background-repeat: no-repeat;
+    font-size: 150%;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 120%;
+    opacity: 1;
+    color: white;
+    text-align: center;
+}
+h3{
+    margin: auto;
+    width: 800px;
+    border: 5px solid rgb(253, 243, 113) ;
+    background-color: #2e2f2e;
+    border-radius: 35px;
+}
+
+table{
+    text-align: center;
+    padding-left: 26%;
+}
+th,
+td {
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    border: 5px solid rgb(253, 243, 113);
+    background-color: #2e2f2e;
+    border-radius: 35px;
+}
+
+h2 {
+    background-color: rgb(20, 21, 20);
+    display: inline; 
+    padding: 5px; 
+    border-radius: 5px; 
+    color: rgb(171, 170, 166);
+    text-align: center;
+    border:5px solid gold;
+}
+
+h1{
+    background-color: black;
+    display: inline; 
+    padding: 5px; 
+    border-radius: 5px; 
+    color: white;
+    text-align: center;
+   
+}
+ p {
+    background-color: black;
+    display: inline; 
+    padding: 5px; 
+    border-radius: 5px; 
+    color: white;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+div {
+    margin: auto;
+    text-align: center;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    color: green;
+}
+
+a:hover {
+    background-color: #ffd700;
+    color: black;
+    transition: 0.5s;
+}
+
+input {
+    font-size: 80%;
+}
+
+select {
+    font-size: 80%;
+    background-color: #7b38d8;
+    color: white;
+    border: 2px solid black;
+}
+
+
+button {
+    font-size: 80%;
+    background-color: #7b38d8;
+    color: white;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: #ffd700;
+    color: black;
+    transition: 0.5s;
+}
+
+.submit {
+    background-color: #6bed47;
+    color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+
+.submit:hover {
+    background-color: #444443;
+    color: black;
+    transition: 0.5s;
+}
+
+select:hover {
+    background-color: #ffd700;
+    color: black;
+    transition: 0.5s;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+span{
+    color: gold;
+}
